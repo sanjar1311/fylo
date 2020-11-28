@@ -612,6 +612,10 @@ img {
           align-items: center;
 }
 
+.about {
+  margin-bottom: 136px;
+}
+
 .about__container {
   max-width: 920px;
   padding-left: 20px;
@@ -649,6 +653,10 @@ img {
   margin-bottom: 16px;
 }
 
+.about-item:first-child {
+  margin-bottom: 78px;
+}
+
 .about-item--access {
   max-width: 349px;
 }
@@ -666,6 +674,7 @@ img {
 
 .about-item__text {
   font-size: 14px;
+  margin: 0;
 }
 
 .about-item--security {
