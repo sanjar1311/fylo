@@ -385,25 +385,12 @@ body {
   font-family: "Raleway", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
-  margin-top: 198px;
   background-color: #1B2330;
 }
 
 img {
   max-width: 100%;
   height: auto;
-}
-
-@media only screen and (max-width: 768px) {
-  body {
-    margin-top: 125px;
-  }
-}
-
-@media only screen and (max-width: 550px) {
-  body {
-    margin-top: 72px;
-  }
 }
 
 .visually-hidden {
@@ -426,11 +413,6 @@ img {
 }
 
 .site-header {
-  position: fixed;
-  z-index: 50;
-  top: 0;
-  left: 0;
-  width: 100%;
   background-color: #1B2330;
 }
 
@@ -578,6 +560,7 @@ img {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 158px;
 }
 
 .intro__img {
