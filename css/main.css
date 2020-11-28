@@ -622,6 +622,14 @@ img {
           align-items: center;
 }
 
+.intro__link:hover {
+  opacity: 0.8;
+}
+
+.intro__link:active {
+  opacity: 0.6;
+}
+
 @media only screen and (max-width: 768px) {
   .intro__title {
     font-size: 32px;
