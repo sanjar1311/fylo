@@ -884,4 +884,103 @@ img {
     font-size: 12px;
   }
 }
+
+.blockquote {
+  margin-bottom: 200px;
+}
+
+.blockquote__list {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  position: relative;
+  z-index: 6;
+}
+
+.blockquote__list::before {
+  position: absolute;
+  left: -1%;
+  top: -30%;
+  z-index: 0;
+  content: "";
+  display: block;
+  width: 79px;
+  height: 79px;
+  background-image: url("../img/blockquote.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center center;
+}
+
+.blockquote__item {
+  color: #fff;
+  width: 100%;
+  max-width: 360px;
+  padding: 40px 25px 26px 27px;
+  background-color: #202A3C;
+  -webkit-box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+          box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
+  border-radius: 3.93258px;
+  z-index: 5;
+}
+
+.blockquote__blockquote-text {
+  margin: 0;
+  padding: 0;
+  margin-bottom: 24px;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: 0.5px;
+}
+
+.blockquote__user-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.blockquote__user-info::before {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  margin-right: 8px;
+}
+
+.blockquote__user-info--satish::before {
+  background-image: url("../img/satish.svg");
+}
+
+.blockquote__user-name {
+  margin: 0;
+  font-weight: bold;
+  font-size: 10px;
+}
+
+.blockquote__user-profession {
+  margin: 0;
+  font-size: 8px;
+}
+
+.blockquote__user-info--bruce::before {
+  background-image: url("../img/bruce.svg");
+}
+
+.blockquote__user-info--iva::before {
+  background-image: url("../img/iva.svg");
+}
 /*# sourceMappingURL=main.css.map */
