@@ -1,0 +1,136 @@
+.site-footer {
+  background-color: #0B1524;
+  padding-top: 200px;
+  padding-bottom: 100px;
+  color: #fff;
+  height: 456px;
+}
+
+.footer__logo {
+  display: block;
+  margin-bottom: 32px;
+}
+
+.footer__bottom {
+  display: flex;
+}
+
+.footer__address {
+  max-width: 360px;
+  display: flex;
+  margin-right: 80px;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 13px;
+    height: 18px;
+    background-image: url("../img/place.svg");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    margin-right: 27px;
+    flex-shrink: 0;
+  }
+}
+
+.footer__address-text {
+  margin: 0;
+}
+
+.footer__phone {
+  display: flex;
+  flex-direction: column;
+  margin-right: 145px;
+}
+
+.footer__tel {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+  margin-bottom: 16px;
+
+  &:before {
+    content: "";
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../img/pgone-icon.svg");
+    margin-right: 24px;
+  }
+}
+
+.footer__mail {
+  text-decoration: none;
+  color: #fff;
+  display: flex;
+
+  &:before {
+    content: "";
+    display: block;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 24px;
+    height: 24px;
+    background-image: url("../../img/gmail-icon.svg");
+    margin-right: 24px;
+  }
+}
+
+.footer__nav {
+  display: flex;
+}
+
+.footer__sitenav {
+  @include reset-list;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+
+  &:first-child {
+    margin-right: 80px;
+  }
+}
+
+.footer__sitenav-item {
+  margin-bottom: 16px;
+
+  &:last-child {
+    mix-blend-mode: 0;
+  }
+}
+
+.footer__sitenav-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.footer__social-links {
+  margin-left: auto;
+  display: flex;
+  align-items: flex-start;
+}
+
+.footer__facebook-link {
+  margin-right: 11px;
+}
+
+.footer__facebook-logo {
+  display: block;
+}
+
+.footer__instagram-link {
+  margin-right: 11px;
+}
+
+.footer__twitter-logo {
+  display: block;
+}
+
+.footer__instagram-logo {
+  display: block;
+}
