@@ -385,11 +385,24 @@ body {
   font-family: "Raleway", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  margin-top: 198px;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+  body {
+    margin-top: 125px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  body {
+    margin-top: 72px;
+  }
 }
 
 .visually-hidden {
@@ -433,6 +446,32 @@ img {
 
 .site-logo__img {
   display: block;
+}
+
+@media only screen and (max-width: 768px) {
+  .site-logo {
+    padding: 45px 0;
+  }
+  .site-logo__img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .site-logo {
+    padding: 24px 0;
+  }
+  .site-logo__img {
+    width: 80;
+    height: 24px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .site-logo__img {
+    width: 60px;
+  }
 }
 
 .sitenav {
@@ -479,5 +518,41 @@ img {
 
 .sitenav__link:active {
   opacity: 0.6;
+}
+
+@media only screen and (max-width: 768px) {
+  .sitenav__item {
+    margin-right: 35px;
+  }
+  .sitenav__item:last-child {
+    margin-right: 0;
+  }
+  .sitenav__link {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+  .sitenav__item {
+    margin-right: 24px;
+  }
+  .sitenav__item:last-child {
+    margin-right: 0;
+  }
+  .sitenav__link {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+  .sitenav__item {
+    margin-right: 16px;
+  }
+  .sitenav__item:last-child {
+    margin-right: 0;
+  }
+  .sitenav__link {
+    font-size: 11px;
+  }
 }
 /*# sourceMappingURL=main.css.map */

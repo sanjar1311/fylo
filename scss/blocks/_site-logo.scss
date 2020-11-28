@@ -13,3 +13,35 @@
 .site-logo__img {
   display: block;
 }
+
+@media only screen and (max-width: 768px) {
+
+  .site-logo {
+    padding: 45px 0;
+  }
+
+  .site-logo__img {
+    width: 120px;
+    height: auto;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .site-logo {
+    padding: 24px 0;
+  }
+
+  .site-logo__img {
+    width: 80;
+    height: 24px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+
+  .site-logo__img {
+    width: 70px;
+    height: auto;
+  }
+}

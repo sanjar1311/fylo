@@ -17,9 +17,23 @@ body {
   font-family: "Raleway", "Arial", sans-serif;
   font-size: 16px;
   line-height: 1.5;
+  margin-top: 198px;
 }
 
 img {
   max-width: 100%;
   height: auto;
+}
+
+@media only screen and (max-width: 768px) {
+
+  body {
+    margin-top: 125px;
+  }
+}
+@media only screen and (max-width: 550px) {
+
+  body {
+    margin-top: 72px;
+  }
 }

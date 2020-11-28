@@ -31,3 +31,49 @@
     opacity: 0.6;
   }
 }
+
+@media only screen and (max-width: 768px) {
+
+  .sitenav__item {
+    margin-right: 35px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .sitenav__link {
+    font-size: 14px;
+  }
+}
+
+@media only screen and (max-width: 550px) {
+
+  .sitenav__item {
+    margin-right: 24px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .sitenav__link {
+    font-size: 12px;
+  }
+}
+
+@media only screen and (max-width: 325px) {
+
+
+  .sitenav__item {
+    margin-right: 16px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  .sitenav__link {
+    font-size: 11px;
+  }
+}
