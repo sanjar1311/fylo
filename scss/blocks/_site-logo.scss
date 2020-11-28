@@ -1,0 +1,15 @@
+.site-logo {
+  padding: 73px 0;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.site-logo__img {
+  display: block;
+}
