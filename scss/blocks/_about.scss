@@ -1,0 +1,20 @@
+.about {
+
+}
+
+.about__container {
+  max-width: 920px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about__list {
+  @include reset-list;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  justify-content: space-between;
+}
