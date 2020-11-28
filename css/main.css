@@ -664,6 +664,10 @@ img {
   line-height: 23px;
 }
 
+.about-item__text {
+  font-size: 14px;
+}
+
 .about-item--security {
   max-width: 384px;
 }
