@@ -10,6 +10,7 @@
 .demo__img {
   object-fit: cover;
   margin-right: 57px;
+  max-width: 50%;
 }
 
 .demo__right {
@@ -47,5 +48,43 @@
     background-position: center center;
     background-size: contain;
     margin-left: 8px;
+  }
+}
+
+@media only screen and (max-width: 805px) {
+  .demo__title {
+    font-size: 36px;
+    text-align: center;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .demo__title {
+    font-size: 30px;
+  }
+
+  .demo__container {
+    flex-direction: column;
+  }
+
+  .demo__img {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 100%;
+    margin-bottom: 48px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .demo__title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .demo__text {
+    font-size: 14px;
+  }
+
+  .demo__link {
+    font-size: 12px;
   }
 }
