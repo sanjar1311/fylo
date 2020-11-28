@@ -896,8 +896,6 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
@@ -930,6 +928,11 @@ img {
           box-shadow: 5px 5px 8px rgba(56, 56, 56, 0.0991282);
   border-radius: 3.93258px;
   z-index: 5;
+  margin-right: 25px;
+}
+
+.blockquote__item:last-child {
+  margin-right: 0;
 }
 
 .blockquote__blockquote-text {
@@ -982,5 +985,78 @@ img {
 
 .blockquote__user-info--iva::before {
   background-image: url("../img/iva.svg");
+}
+
+@media only screen and (max-width: 827px) {
+  .blockquote__list {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .blockquote__list::before {
+    top: -14%;
+  }
+  .blockquote__item {
+    margin-bottom: 24px;
+  }
+}
+
+@media only screen and (max-width: 799px) {
+  .blockquote__list::before {
+    left: 24%;
+  }
+}
+
+@media only screen and (max-width: 774px) {
+  .blockquote__item {
+    max-width: 460px;
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .blockquote__item:last-child {
+    margin-right: 0px;
+  }
+  .blockquote__list::before {
+    left: 18%;
+    top: -10%;
+  }
+}
+
+@media only screen and (max-width: 774px) {
+  .blockquote__list::before {
+    left: 17%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .blockquote__list::before {
+    left: 14%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+  .blockquote__list::before {
+    left: 10%;
+  }
+}
+
+@media only screen and (max-width: 530px) {
+  .blockquote__list::before {
+    left: 7%;
+  }
+}
+
+@media only screen and (max-width: 444px) {
+  .blockquote__list::before {
+    top: -9%;
+  }
+}
+
+@media only screen and (max-width: 333px) {
+  .blockquote__list::before {
+    top: -8%;
+  }
 }
 /*# sourceMappingURL=main.css.map */
