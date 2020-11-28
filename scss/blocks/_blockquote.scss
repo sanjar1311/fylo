@@ -163,6 +163,10 @@
   .blockquote__list::before {
     top: -9%;
   }
+
+  .blockquote {
+    margin-bottom: 160px;
+  }
 }
 
 @media only screen and (max-width: 333px) {

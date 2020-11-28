@@ -35,3 +35,28 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+@media only screen and (max-width: 768px) {
+  .contact__wrapper {
+    padding: 40px 28px;
+  }
+  .contact__title {
+    font-size: 24px;
+    line-height: 32px;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .contact__wrapper {
+    padding: 40px 28px;
+  }
+  .contact__title {
+    font-size: 18px;
+    line-height: 24px;
+  }
+
+  .contact__text {
+    font-size: 12px;
+    line-height: 21px;
+  }
+}
