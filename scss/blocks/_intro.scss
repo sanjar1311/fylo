@@ -60,6 +60,11 @@
   .intro__text {
     font-size: 17px;
   }
+
+  .intro__link {
+    font-size: 15px;
+    padding: 16px 87px 15px 87px;
+  }
 }
 
 @media only screen and (max-width: 450px) {
@@ -71,6 +76,11 @@
 
   .intro__text {
     font-size: 14px;
+  }
+
+  .intro__link {
+    font-size: 14px;
+    padding: 16px 81px;
   }
 }
 
