@@ -666,6 +666,10 @@ img {
   .intro__text {
     font-size: 13px;
   }
+  .intro__link {
+    font-size: 13px;
+    padding: 13px 65px;
+  }
 }
 
 .about {
@@ -845,6 +849,14 @@ img {
   background-position: center center;
   background-size: contain;
   margin-left: 8px;
+}
+
+.demo__link:hover {
+  opacity: 0.8;
+}
+
+.demo__link:active {
+  opacity: 0.6;
 }
 
 @media only screen and (max-width: 805px) {
@@ -1175,6 +1187,14 @@ img {
   border: 0;
 }
 
+.contact-form__button:hover {
+  opacity: 0.8;
+}
+
+.contact-form__button:active {
+  opacity: 0.6;
+}
+
 @media only screen and (max-width: 768px) {
   .contact-form {
     -webkit-box-orient: vertical;
@@ -1185,11 +1205,15 @@ img {
   .contact-form__input {
     margin-right: 0;
     margin-bottom: 24px;
+    padding-top: 15px;
+    padding-bottom: 14px;
   }
   .contact-form__button {
     width: 100%;
     max-width: 100%;
     text-align: center;
+    font-size: 13px;
+    padding: 13px 24px;
   }
 }
 
@@ -1203,6 +1227,14 @@ img {
 .footer__logo {
   display: block;
   margin-bottom: 32px;
+}
+
+.footer__logo:hover {
+  opacity: 0.8;
+}
+
+.footer__logo:focus {
+  opacity: 0.6;
 }
 
 .footer__bottom {
@@ -1259,6 +1291,14 @@ img {
   margin-bottom: 16px;
 }
 
+.footer__tel:hover {
+  opacity: 0.8;
+}
+
+.footer__tel:active {
+  opacity: 0.6;
+}
+
 .footer__tel:before {
   content: "";
   display: block;
@@ -1277,6 +1317,14 @@ img {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.footer__mail:hover {
+  opacity: 0.8;
+}
+
+.footer__mail:active {
+  opacity: 0.6;
 }
 
 .footer__mail:before {
@@ -1329,6 +1377,14 @@ img {
   color: #fff;
 }
 
+.footer__sitenav-link:hover {
+  opacity: 0.8;
+}
+
+.footer__sitenav-link:active {
+  opacity: 0.6;
+}
+
 .footer__social-links {
   margin-left: auto;
   display: -webkit-box;
@@ -1344,12 +1400,36 @@ img {
   margin-left: 15px;
 }
 
+.footer__facebook-link:hover {
+  opacity: 0.8;
+}
+
+.footer__facebook-link:active {
+  opacity: 0.6;
+}
+
 .footer__facebook-logo {
   display: block;
 }
 
 .footer__instagram-link {
   margin-right: 11px;
+}
+
+.footer__instagram-link:hover {
+  opacity: 0.8;
+}
+
+.footer__instagram-link:active {
+  opacity: 0.6;
+}
+
+.footer__twitter-link:hover {
+  opacity: 0.8;
+}
+
+.footer__twitter-link:active {
+  opacity: 0.6;
 }
 
 .footer__twitter-logo {

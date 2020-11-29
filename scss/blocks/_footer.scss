@@ -8,6 +8,14 @@
 .footer__logo {
   display: block;
   margin-bottom: 32px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:focus {
+    opacity: 0.6;
+  }
 }
 
 .footer__bottom {
@@ -50,6 +58,14 @@
   display: flex;
   margin-bottom: 16px;
 
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+
   &:before {
     content: "";
     display: block;
@@ -67,6 +83,14 @@
   text-decoration: none;
   color: #fff;
   display: flex;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 
   &:before {
     content: "";
@@ -107,6 +131,14 @@
 .footer__sitenav-link {
   text-decoration: none;
   color: #fff;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .footer__social-links {
@@ -118,6 +150,14 @@
 .footer__facebook-link {
   margin-right: 11px;
   margin-left: 15px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
 }
 
 .footer__facebook-logo {
@@ -126,6 +166,27 @@
 
 .footer__instagram-link {
   margin-right: 11px;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active {
+    opacity: 0.6;
+  }
+}
+
+.footer__twitter-link {
+
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  &:active{
+    opacity: 0.6;
+  }
+
 }
 
 .footer__twitter-logo {
