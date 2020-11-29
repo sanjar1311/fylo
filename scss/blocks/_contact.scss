@@ -1,6 +1,9 @@
 .contact {
   color: #fff;
   text-align: center;
+  position: relative;
+  z-index: 1515;
+  top: 4%;
 }
 
 .contact__container {
@@ -47,6 +50,11 @@
 }
 
 @media only screen and (max-width: 450px) {
+
+  .contact {
+    top: 3.5%;
+  }
+
   .contact__wrapper {
     padding: 40px 28px;
   }
