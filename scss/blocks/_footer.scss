@@ -74,7 +74,7 @@
     background-size: contain;
     width: 24px;
     height: 24px;
-    background-image: url("../../img/pgone-icon.svg");
+    background-image: url("../img/pgone-icon.svg");
     margin-right: 24px;
   }
 }
@@ -100,7 +100,7 @@
     background-size: contain;
     width: 24px;
     height: 24px;
-    background-image: url("../../img/gmail-icon.svg");
+    background-image: url("../img/gmail-icon.svg");
     margin-right: 24px;
   }
 }
@@ -177,7 +177,7 @@
 }
 
 .footer__twitter-link {
-
+  margin-right: 12px;
 
   &:hover {
     opacity: 0.8;
